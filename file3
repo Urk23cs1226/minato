@@ -1,0 +1,21 @@
+exp 1 
+
+
+1.	installing the GIT 
+	Download Git: Go to https://giersion to make sure Git is installed correctly. You should see the installed version displayed.
+
+2.	manage public and private repository
+	Create a Repository: If you haven't already, create a repository on GitHub. Sign in to your GitHub account, click on the "+" icon in the top right corner, and choose "New repository". Fill in the necessary details like repository name, description, etc., and click "Create repository".
+	Access Repository Settings: Once your repository is created, navigate to its main page. You'll see options like "Code", "Issues", "Pull requests", etc. Click on the "Settings" tab located near the top-right corner of the repository page.
+	Change Repository Visibility: In the Settings page, scroll down until you find the "Danger Zone" section.
+	Under "Danger Zone", you'll find the "Change repository visibility" option.
+	Click on "Change repository visibility" and select "Private" from the dropdown menu.
+	Confirm Changes: After selecting "Private", GitHub will prompt you to confirm the change. You might need to provide your GitHub password or re-enter your account credentials to confirm the action.
+	Save Changes: Once confirmed, click on the "Make private" button to save your changes.
+	Verify Repository Status: After making the repository private, its visibility will be updated accordingly. You'll notice a lock icon next to the repository name, indicating that it's now private.
+t-scm.com/download/win and get the Git installer for Windows.
+	Run Installer: Double-click the downloaded file to start the installation process.
+	Follow Instructions: The installer will guide you through the process with simple prompts. Just click "Next" or "Install" as appropriate.
+	Choose Options: During installation, select "Use Git from the Windows Command Prompt" so you can run Git commands from the Command Prompt or PowerShell easily.
+	Finish Installation: Once the installation completes, click "Finish".
+	Check Installation: Open Command Prompt or Git Bash and type git --v
